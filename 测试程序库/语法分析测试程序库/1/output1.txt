@@ -1,0 +1,254 @@
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+CHARTK char
+IDENFR c
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR a
+COMMA ,
+IDENFR b
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+PRINTFTK printf
+LPARENT (
+STRCON 18231169
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR a
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR c
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR b
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR c
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+CHARCON +
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+IDENFR a
+<因子>
+<项>
+PLUS +
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+CHARCON -
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+IDENFR a
+<因子>
+<项>
+MINU -
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+CHARCON *
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+IDENFR a
+<因子>
+MULT *
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+CHARCON /
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+IDENFR a
+<因子>
+DIV /
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON error!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR a
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 1
+<无符号整数>
+<整数>
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON a is not 1!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+FORTK for
+LPARENT (
+IDENFR a
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+SEMICN ;
+IDENFR a
+<因子>
+<项>
+<表达式>
+LSS <
+INTCON 6
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+SEMICN ;
+IDENFR a
+ASSIGN =
+IDENFR a
+PLUS +
+INTCON 1
+<无符号整数>
+<步长>
+RPARENT )
+LBRACE {
+SCANFTK scanf
+LPARENT (
+IDENFR b
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON file3 over!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

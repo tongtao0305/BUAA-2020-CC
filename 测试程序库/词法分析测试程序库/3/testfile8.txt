@@ -1,0 +1,23 @@
+const int MAX=10;
+int unique3;
+char get_A(){return ('A');}
+int fib(int x) {
+	if (x>MAX) return (-1);
+	if (x==1) return (1);
+	if (x==2) return (1);
+	return (fib(x-1)+fib(x-2));
+}
+void main(){
+	const char plus='+', mul='*';
+	int arr[2]={1,2};
+	printf("18373695");
+	printf(get_A());
+	printf(fib(2*3));
+	printf(fib(-2*3+14/2));
+	printf(fib(11));
+	printf(fib(arr[1]*arr[0]));
+	printf('1');
+	printf(1*arr[1]/2);
+	printf(1-0+arr[0]/1-1);
+	if(1!=2)printf(plus);
+}

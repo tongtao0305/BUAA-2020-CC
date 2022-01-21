@@ -1,0 +1,74 @@
+void basiccheck() {
+	const int q = 0;
+	int x,X_,x1;
+	char s1 = '+';
+	char s2 = '*';
+	char s3 = 'a';
+	char s4 = '0';
+	x = 10;
+	X_ = +1;
+	x1 = -1;
+	x = 1 + 1 - 1 * 1 / 1;
+	return;
+}
+int onlySentences(int x) {
+	return(x);
+}
+void onlyemptySentences(int x, int y) {
+}
+int exp_assign_callcheck() {
+	int x1[2] = {0,0};
+	int x2[2][2] = {{0,0},{0,0}};
+	int x;
+	x = 0;
+	x1[0] = + x - 'a' * onlySentences(1);
+	x2[0][0] = - x1[0] + x2[0][1] / (1 + 1);
+	basiccheck();
+	onlyemptySentences(0,0);
+	return(x2[0][0]);
+}
+int if_emptycheck(int x, int y) {
+	if (x == y) x = x + 1;
+	else if (x < y) {
+		x = x - 1;
+	}
+	else if (x > y) {
+	}
+	else if (x >= y) ;
+	else if (x <= y) x = 2;
+	else if (x != y) x = 4;
+	return(x);
+}
+char loopcheck() {
+	int i = 0;
+	while (i <= 10) i = i + 1;
+	for (i = 10;i > 0;i = i - 1);
+	for (i = 0;i <= 10;i = i + 1);
+	return('a');
+}
+char switchcheck(char z) {
+	switch(z) {
+		case 'a': ;
+		case 'b': ;
+		default: ;
+	}
+	switch(z) {
+		case 'a': return('a');
+		default: return('b');
+	}
+}
+void main () {
+	int x;
+	scanf(x);
+	printf("18374472");
+	printf("onlySentences(x)=",onlySentences(x));
+	printf("exp_assign_callcheck()=",exp_assign_callcheck());
+	printf("if_emptycheck(x,0)=",if_emptycheck(x,0));
+	printf("loopcheck()=",loopcheck());
+	printf("switchcheck('b')=",switchcheck('b'));
+	printf(x);
+	printf(x);
+	printf(x);
+	printf("x",x);
+	return;
+}

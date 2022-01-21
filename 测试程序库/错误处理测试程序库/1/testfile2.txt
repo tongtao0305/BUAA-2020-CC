@@ -1,0 +1,16 @@
+char a = 's';
+int fun=2;
+void fun(){
+  printf(a);
+}
+
+
+void main () {
+  int fun=2;
+  int fun=3;
+  printf(fun);
+}
+
+
+
+

@@ -1,0 +1,415 @@
+CONSTTK const
+INTTK int
+IDENFR PI
+ASSIGN =
+INTCON 3
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR _global
+ASSIGN =
+INTCON 233
+<无符号整数>
+<整数>
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+INTCON 18231051
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON Test case 2: logistic, conditional, switch & loop expressions.
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IFTK if
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+EQL ==
+INTCON 114514
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON Branch 1, should not enter this branch.
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+ELSETK else
+LBRACE {
+IFTK if
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+GEQ >=
+INTCON 222
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON Branch 2, should enter this branch.
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+IFTK if
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+LEQ <=
+INTCON 123
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON Branch 3, should not enter this branch.
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+ELSETK else
+IFTK if
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+NEQ !=
+MINU -
+INTCON 233
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON Branch 4, should enter this branch.
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+<条件语句>
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<条件语句>
+<语句>
+WHILETK while
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+LSS <
+INTCON 255
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR _global
+ASSIGN =
+IDENFR _global
+<因子>
+<项>
+PLUS +
+INTCON 3
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
+<语句>
+FORTK for
+LPARENT (
+IDENFR _global
+ASSIGN =
+INTCON 2333
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+SEMICN ;
+IDENFR _global
+<因子>
+<项>
+<表达式>
+GRE >
+INTCON 233
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+SEMICN ;
+IDENFR _global
+ASSIGN =
+IDENFR _global
+MINU -
+INTCON 233
+<无符号整数>
+<步长>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<循环语句>
+<语句>
+LBRACE {
+<语句列>
+RBRACE }
+<语句>
+LBRACE {
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+LBRACE {
+IDENFR _global
+ASSIGN =
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR PI
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 1
+<无符号整数>
+<整数>
+<常量>
+COLON :
+IDENFR _global
+ASSIGN =
+IDENFR _global
+<因子>
+<项>
+PLUS +
+INTCON 10
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+IDENFR _global
+ASSIGN =
+IDENFR _global
+<因子>
+<项>
+PLUS +
+INTCON 100
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR PI
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 2
+<无符号整数>
+<整数>
+<常量>
+COLON :
+IDENFR _global
+ASSIGN =
+IDENFR _global
+<因子>
+<项>
+PLUS +
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+INTCON 3
+<无符号整数>
+<整数>
+<常量>
+COLON :
+IDENFR _global
+ASSIGN =
+IDENFR _global
+<因子>
+<项>
+PLUS +
+INTCON 10000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+INTCON 4
+<无符号整数>
+<整数>
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON Fallthrough, should not print this
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR _global
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

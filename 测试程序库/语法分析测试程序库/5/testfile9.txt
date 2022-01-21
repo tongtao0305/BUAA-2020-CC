@@ -1,0 +1,61 @@
+char ma[2],na[1];
+int a[2][2];
+int b[2][2]={{1,2},{3,4}};
+int c[2]={5,6};
+int d=0;
+void f1(){
+const char top2='b';
+char L='5';
+}
+char f2(char j){
+const char top3='c';
+return ('c');
+}
+int f3(int r,int s){
+int t;
+t=s;
+if(r>=s)
+if(r==s)
+;
+else
+t=r;
+{
+return (-t+t*2);
+}
+}
+int f4(int left,int right,char ysf){
+switch(ysf){
+case '+':return (+left+right);
+case '-':return (left-right+f3((left),right)-f3((left),right));
+default:return (0);
+}
+}
+void main(){
+int M=78;
+int N=34;
+int e,result;
+char fuhao;
+char _jia='+';
+char _jian='-';
+char _cheng='*';
+char _chu='/';
+scanf (d);
+scanf (e);
+scanf (fuhao);
+;
+f1();
+f2(fuhao);
+ma[0]=f2(fuhao);
+a[0][0]=f3(M,N);
+result=f4(d,e,fuhao);
+printf("18231199");
+printf(result);
+printf("maxM,N",a[0][0]);
+printf(ma[0]);
+printf(a[0][0]);
+printf("J");
+printf("S");
+printf("J");
+printf("X");
+printf("Y");
+}

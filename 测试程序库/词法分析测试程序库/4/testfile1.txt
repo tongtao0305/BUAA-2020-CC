@@ -1,0 +1,75 @@
+const int fixed_num1 = 1,fixed_num2 = 2,fixed_num3 = 5,fixed_num4 = 6;
+void printFunc1(int a,int b){
+	int x;
+	int y;
+	x = a + b;
+	y = a - b;
+	if (a > 0) {
+		x = +1;
+	}
+	if (x > y) {
+		printf(x);
+	}
+	else {
+		printf(y);
+	}
+} 
+
+char GetCharFunc(int x) {
+	if (x >= 0) {
+		return ('a');
+	}
+	return ('b');
+} 
+void main() {
+	int variable_num1,variable_num2,variable_num3,variable_NumArray1[5],variable_NumArray2[5][5];
+	int i = 0;
+	int j = +3;
+	int k = +0;
+	int fixed_NumArray1[5] = {0,2,4,6,8};
+	scanf(variable_num1);
+	scanf(variable_num2);
+	for (i = 0;i <= 4;i = i + 1) {
+		switch(i) {
+			case 0: {
+				for (j = 0;j < 5;j = j + 1) {
+					variable_NumArray2[0][j] = fixed_NumArray1[j];
+					fixed_NumArray1[j] = fixed_NumArray1[j] + 1;
+				}
+			}
+			case 1: {
+				for (j = 0;j < 5;j = j + 1) {
+					variable_NumArray2[1][j] = fixed_NumArray1[j];
+					fixed_NumArray1[j] = fixed_NumArray1[j] + 1;
+				}
+			}
+			case 2: {
+				for (j = 0;j < 5;j = j + 1) {
+					variable_NumArray2[2][j] = fixed_NumArray1[j];
+					fixed_NumArray1[j] = fixed_NumArray1[j] + 1;
+				}
+			}
+			case 3: {
+				for (j = 0;j < 5;j = j + 1) {
+					variable_NumArray2[3][j] = fixed_NumArray1[j];
+					fixed_NumArray1[j] = fixed_NumArray1[j] + 1;
+				}
+			}
+			default : {
+				for (j = 0;j < 5;j = j + 1) {
+					variable_NumArray2[4][j] = fixed_NumArray1[j];
+				}
+			}
+	}	
+	}
+	printf("18373039");
+	while (k < 5) {
+		printf(variable_NumArray2[k][0]);
+		k = k + 1;
+	}
+	printFunc1(variable_NumArray2[0][1],variable_NumArray2[0][3]);
+	printFunc1(variable_NumArray2[0][2],-variable_NumArray2[0][4]);
+	printf("hellow");
+	printf("go,",variable_num1);
+	return ;
+}

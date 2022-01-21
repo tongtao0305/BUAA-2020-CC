@@ -1,0 +1,37 @@
+const char temp='t',temppp='s';
+int a,b;char aa;char bb;
+int c = 10;
+char __='+';char ___='*';char ____='1';
+char _ = 'c';
+int judge1(int a,int b) { int aaa = 1; int ccc; if (a == b) return (a+b); else return (a-b); }
+void nothing2() { }
+char judge2(int a,int b) { nothing2(); return (temp); }
+int same(int a) {const char tempppp='z';return (a);}
+void nothing1() { return; }
+void main() { 
+	int zzzz=0;
+	printf("18373489");
+	aa = 'a';
+	bb = 'b';
+	scanf(a);
+	scanf(b);
+	if (a>=b) nothing2();
+	if (a>b) nothing2();
+	if (a<=b) nothing2();
+	if (a<b) nothing2();
+	if (a!=b) nothing2();
+	c=judge1(a,b);
+	printf(a);
+	printf(b);
+	printf(c);
+	_=judge2(a,b);
+	printf(aa);
+	printf(bb);
+	printf(_);
+	nothing1();
+	nothing2();
+	c=same(c);
+	printf(c);
+	printf(a+(-b));
+	printf(a+b);
+} 

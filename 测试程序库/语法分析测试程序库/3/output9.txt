@@ -1,0 +1,515 @@
+CONSTTK const
+INTTK int
+IDENFR const_num1
+ASSIGN =
+INTCON 1999
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+INTTK int
+IDENFR const_num2
+ASSIGN =
+INTCON 1010
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR const_char1
+ASSIGN =
+CHARCON s
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR const_char2
+ASSIGN =
+CHARCON y
+<常量定义>
+SEMICN ;
+<常量说明>
+CHARTK char
+IDENFR globle_char1
+ASSIGN =
+CHARCON s
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR globle_char2
+ASSIGN =
+CHARCON y
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR globle_char3
+ASSIGN =
+CHARCON h
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+VOIDTK void
+IDENFR getId
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON 18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<无返回值函数定义>
+VOIDTK void
+IDENFR what
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+<语句列>
+<复合语句>
+RBRACE }
+<无返回值函数定义>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR op
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR mod
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR ans
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR zz
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+IDENFR zz
+ASSIGN =
+CHARCON +
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR zz
+ASSIGN =
+CHARCON -
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR zz
+ASSIGN =
+CHARCON *
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR zz
+ASSIGN =
+CHARCON /
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR zz
+ASSIGN =
+CHARCON 1
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR op
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+IDENFR op
+<因子>
+DIV /
+INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+IDENFR op
+<因子>
+<项>
+PLUS +
+IDENFR op
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+IDENFR op
+<因子>
+MULT *
+IDENFR op
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR ans
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+MINU -
+IDENFR op
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR mod
+ASSIGN =
+PLUS +
+IDENFR op
+<因子>
+<项>
+MINU -
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+LBRACE {
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR op
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 10
+<无符号整数>
+<整数>
+<常量>
+COLON :
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR op
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 0
+<无符号整数>
+<整数>
+<常量>
+COLON :
+LBRACE {
+IDENFR ans
+ASSIGN =
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<情况子语句>
+CASETK case
+INTCON 1
+<无符号整数>
+<整数>
+<常量>
+COLON :
+LBRACE {
+IDENFR ans
+ASSIGN =
+INTCON 10
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<情况子语句>
+CASETK case
+INTCON 2
+<无符号整数>
+<整数>
+<常量>
+COLON :
+LBRACE {
+IDENFR ans
+ASSIGN =
+INTCON 100
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+IDENFR ans
+ASSIGN =
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+IFTK if
+LPARENT (
+IDENFR ans
+<因子>
+<项>
+<表达式>
+EQL ==
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+LBRACE {
+IDENFR ans
+ASSIGN =
+IDENFR ans
+<因子>
+<项>
+PLUS +
+INTCON 100
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<条件语句>
+<语句>
+IDENFR what
+LPARENT (
+<值参数表>
+RPARENT )
+<无返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR getId
+LPARENT (
+<值参数表>
+RPARENT )
+<无返回值函数调用语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON syh18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON syh_18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 18373762
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR ans
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR ans
+<因子>
+<项>
+PLUS +
+IDENFR ans
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR ans
+<因子>
+MULT *
+IDENFR ans
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

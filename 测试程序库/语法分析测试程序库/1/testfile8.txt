@@ -1,0 +1,18 @@
+const int global_c=1,global_d=-20;
+int global_e=+20;
+void func4(){
+    int only;
+}
+void main(){
+    func4();
+    printf("17374216");
+    printf("%",global_c+global_d);
+    printf("%",global_c+global_e);
+    printf("%",global_e+global_d);
+    printf("%",global_c-global_d);
+    printf("%",global_c*global_d);
+    printf("%",global_c/global_d);
+    printf("%",global_e*global_d);
+    printf("%",global_e/global_d);
+    printf("%",global_c*global_e);
+}

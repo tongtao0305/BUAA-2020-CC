@@ -1,0 +1,10 @@
+18231045
+char sum:
+1672
+i_matric[2][2]=16
+n
+switch to case4
+if success!
+else success: 1
+int sum:
+136

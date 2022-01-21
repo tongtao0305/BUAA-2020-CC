@@ -1,0 +1,12 @@
+int x=1;
+int c='+';
+
+char d=1;
+
+void main(){
+  switch(x){
+    case '1': printf(1);
+    default: printf(1);
+  }
+}
+

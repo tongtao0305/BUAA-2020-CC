@@ -1,0 +1,10 @@
+18373114
+1
+answer is 100
+1
+default
+2
+hello world
+10000
+the
+end

@@ -1,0 +1,10 @@
+18182683
+c != b,1
+test_var_int1 <=0
+test_var_int1 <=0
+test_var_int1 <=0
+test_var_int2 >=0
+test_var_int2 >=0
+test_var_int2 >=0
+test_var_int2 >=0
+-1

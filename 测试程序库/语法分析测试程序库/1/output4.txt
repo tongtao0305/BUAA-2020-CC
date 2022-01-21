@@ -1,0 +1,278 @@
+INTTK int
+IDENFR func_switch_ch
+<声明头部>
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+CHARTK char
+IDENFR ch
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+SCANFTK scanf
+LPARENT (
+IDENFR ch
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR ch
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+CHARCON m
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON Got m
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON Got else
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+RETURNTK return
+LPARENT (
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<返回语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<有返回值函数定义>
+INTTK int
+IDENFR func_switch_int
+<声明头部>
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR tmp
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+SCANFTK scanf
+LPARENT (
+IDENFR tmp
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR tmp
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+INTCON 1
+<无符号整数>
+<整数>
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON iGot 1
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+INTCON 2
+<无符号整数>
+<整数>
+<常量>
+COLON :
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+INTCON 3
+<无符号整数>
+<整数>
+<常量>
+COLON :
+LBRACE {
+<语句列>
+RBRACE }
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON iGot else
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+RETURNTK return
+LPARENT (
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<返回语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<有返回值函数定义>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON 18373050
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_ch
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_ch
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_int
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_int
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_int
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+IDENFR func_switch_int
+LPARENT (
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON --------------------
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON ylsyyds! yls 3x speed!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON lls,yyds! xdd,yyds! gtc,yyds!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON Cjbbbbbbbbbbbbbbbbbbb! --- The master encourager!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON GoodLuck, may the encourager be with you!(
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+RETURNTK return
+<返回语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

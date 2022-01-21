@@ -1,0 +1,12 @@
+void fun(int x){
+  call();
+}
+
+void main(){
+  fun(a);
+  printf(x);
+}
+
+
+
+

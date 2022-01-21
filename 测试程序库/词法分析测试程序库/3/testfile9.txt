@@ -1,0 +1,65 @@
+const int const_num1 = 1999;
+const int const_num2 = 1010;
+const char const_char1 = 's';
+const char const_char2 = 'y';
+char globle_char1 = 's';
+char globle_char2 = 'y';
+char globle_char3 = 'h';
+void getId() {
+	printf("18373762");
+}
+void what() {
+	
+}
+void main() {
+	int op;
+	int mod;
+	int ans;
+	char zz;
+	zz = '+';
+	zz = '-';
+	zz = '*';
+	zz = '/';
+	zz = '1';
+	scanf(op);
+	mod = op / 4;
+	mod = op + op;
+	mod = op * op;
+	mod = 4;
+	ans = 0;
+	mod = -op;
+	mod = +op - 1;
+	{
+		;
+	}
+	switch(op) {
+		case 10: ;
+		default: ;
+	}
+	switch(op) {
+		case 0: {
+			ans = 1;
+		}
+		case 1: {
+			ans = 10;
+		}
+		case 2: {
+			ans = 100;
+		}
+		default: ans = 1000;
+	}
+	if (ans == 0) {
+		ans = ans + 100;
+	}
+	what();
+	getId();
+	printf("syh18373762");
+	printf("syh_18373762");
+	printf("18373762");
+	printf("18373762");
+	printf("18373762");
+	printf("18373762");
+	printf(ans);
+	printf(ans + ans);
+	printf(ans * ans);
+}

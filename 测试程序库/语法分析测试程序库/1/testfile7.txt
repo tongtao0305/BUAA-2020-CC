@@ -1,0 +1,24 @@
+int Fibo[10];
+
+void calculate()
+{
+	int i;
+	for (i = 2; i < 10; i = i + 1)
+	{
+		Fibo[i] = Fibo[i - 1] + Fibo[i - 2];
+	}
+}
+
+void main()
+{
+	int Fibo_num;
+	printf("18373462");
+	Fibo[0] = 1;
+	Fibo[1] = 1;
+	calculate();
+	for (Fibo_num = 0; Fibo_num < 9; Fibo_num = Fibo_num + 1)
+	{
+		printf(Fibo[Fibo_num]);
+	}
+	return;
+}

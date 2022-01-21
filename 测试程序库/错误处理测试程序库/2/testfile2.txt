@@ -1,0 +1,22 @@
+const char a = 'a';
+char net[9] = {'x','b','c','d','e','f','g','h','i'};
+char toChar(int i) {
+	return(net[i]);
+}
+void errfunc(){
+	return(10);;;
+}
+void errfk(int a {return;}
+void main() {
+int i;
+char c;
+i = 0;
+printf("18373330");
+net[0] = 'a';
+;
+while (i < 9) {
+c = toChar(i);
+printf(c);
+i = i + 1;  }
+return(13);;;
+}

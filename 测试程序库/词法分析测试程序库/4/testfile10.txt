@@ -1,0 +1,60 @@
+const int chang1 = 0, chang2 = 1;
+const char chang3 = 'y';
+int bian = +1;
+char bianliang1,bianliang2;
+
+int haveIntRe() {
+    printf("I'm a function with return value! no parameter");
+    return (0);
+}
+
+char haveCharRe() {
+    return (chang3);
+}
+
+void noReturn(int a) {
+    const int i = 0;
+    char m;
+    printf("I'm a function without return value! function with one parameter, one constant description, one variable declaration");
+    return ;
+}
+
+void two_Parameters(int a, char c) {
+    printf("The function with two parameters");
+}
+
+void kong() {
+    ;	
+}
+
+void main() {
+    int a = -1;
+    int b = +3;
+    int c,d;
+    char e = '+';
+    char f = '*';
+    char g = '1';
+    int arr1[5];
+    int arr2[5] = {0,1,2,3,40};
+    int arr3[2][3];
+    int arr4[2][3] = {{0,1,2},{3,4,5}};
+    char bl;
+    bl = 'x';
+    c = a + (a + b) * b;
+
+    printf("18373189");
+    printf("program with constant description, variable declaration");
+    d = haveIntRe();
+    haveCharRe();
+    noReturn(bian);
+    two_Parameters(a,bl);
+    kong();
+
+    scanf(bl);
+    printf("printf1",a+b);
+    printf(a + b);
+    printf("8");
+    printf("9");
+    printf("10");
+    return ;
+}

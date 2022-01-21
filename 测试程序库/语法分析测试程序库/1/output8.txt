@@ -1,0 +1,218 @@
+CONSTTK const
+INTTK int
+IDENFR global_c
+ASSIGN =
+INTCON 1
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR global_d
+ASSIGN =
+MINU -
+INTCON 20
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR global_e
+ASSIGN =
+PLUS +
+INTCON 20
+<无符号整数>
+<整数>
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+VOIDTK void
+IDENFR func4
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR only
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+<语句列>
+<复合语句>
+RBRACE }
+<无返回值函数定义>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+IDENFR func4
+LPARENT (
+<值参数表>
+RPARENT )
+<无返回值函数调用语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 17374216
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+<项>
+PLUS +
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+<项>
+PLUS +
+IDENFR global_e
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_e
+<因子>
+<项>
+PLUS +
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+<项>
+MINU -
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+MULT *
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+DIV /
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_e
+<因子>
+MULT *
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_e
+<因子>
+DIV /
+IDENFR global_d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON %
+<字符串>
+COMMA ,
+IDENFR global_c
+<因子>
+MULT *
+IDENFR global_e
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

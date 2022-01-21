@@ -1,0 +1,24 @@
+int x=1;
+int c=1;
+
+char d='+';
+
+int fun(){
+  return (1);
+}
+
+void main(){
+  int arr[4][3];
+  switch(fun()){
+    case 3: printf(1);
+  }
+  switch(d){
+    case '1': printf(1);
+    case '2': printf('2');
+  }
+  switch(arr[3][2]){
+    case 3: printf(1);
+    case 7: printf(1);
+  }
+}
+

@@ -1,0 +1,10 @@
+18373674
+test_unrfunc:1
+test_unrfunc:1
+test_rfunc:a
+test_rfunc:1
+test_rfunc:1
+test_switch:1
+test_switch:1
+test_while:1
+1

@@ -1,0 +1,496 @@
+CONSTTK const
+INTTK int
+IDENFR zdfvv
+ASSIGN =
+MINU -
+INTCON 7890
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR dadong
+ASSIGN =
+CHARCON s
+<常量定义>
+SEMICN ;
+<常量说明>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR shenmegui
+COMMA ,
+IDENFR biaodashi
+COMMA ,
+IDENFR i
+COMMA ,
+IDENFR j
+COMMA ,
+IDENFR l
+COMMA ,
+IDENFR m
+COMMA ,
+IDENFR n
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR k
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR xianshibao
+LBRACK [
+INTCON 69
+<无符号整数>
+RBRACK ]
+LBRACK [
+INTCON 69
+<无符号整数>
+RBRACK ]
+COMMA ,
+IDENFR segui
+LBRACK [
+INTCON 9
+<无符号整数>
+RBRACK ]
+LBRACK [
+INTCON 9
+<无符号整数>
+RBRACK ]
+COMMA ,
+IDENFR laosepi
+LBRACK [
+INTCON 2333
+<无符号整数>
+RBRACK ]
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR lsp
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR dickdon
+LBRACK [
+INTCON 3
+<无符号整数>
+RBRACK ]
+ASSIGN =
+LBRACE {
+CHARCON l
+<常量>
+COMMA ,
+CHARCON s
+<常量>
+COMMA ,
+CHARCON p
+<常量>
+RBRACE }
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR DickDong
+LBRACK [
+INTCON 2
+<无符号整数>
+RBRACK ]
+LBRACK [
+INTCON 2
+<无符号整数>
+RBRACK ]
+ASSIGN =
+LBRACE {
+LBRACE {
+PLUS +
+INTCON 69
+<无符号整数>
+<整数>
+<常量>
+COMMA ,
+MINU -
+INTCON 69
+<无符号整数>
+<整数>
+<常量>
+RBRACE }
+COMMA ,
+LBRACE {
+MINU -
+INTCON 69
+<无符号整数>
+<整数>
+<常量>
+COMMA ,
+PLUS +
+INTCON 69
+<无符号整数>
+<整数>
+<常量>
+RBRACE }
+RBRACE }
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR balala
+ASSIGN =
+INTCON 233
+<无符号整数>
+<整数>
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+SCANFTK scanf
+LPARENT (
+IDENFR lsp
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR shenmegui
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 18373008
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR biaodashi
+ASSIGN =
+LPARENT (
+IDENFR lsp
+<因子>
+<项>
+PLUS +
+IDENFR lsp
+<因子>
+<项>
+<表达式>
+RPARENT )
+<因子>
+MULT *
+IDENFR shenmegui
+<因子>
+<项>
+PLUS +
+IDENFR shenmegui
+<因子>
+<项>
+MINU -
+IDENFR zdfvv
+<因子>
+<项>
+PLUS +
+IDENFR lsp
+<因子>
+DIV /
+IDENFR shenmegui
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR biaodashi
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR biaodashi
+ASSIGN =
+IDENFR biaodashi
+<因子>
+MULT *
+IDENFR biaodashi
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR biaodashi
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+WHILETK while
+LPARENT (
+IDENFR biaodashi
+<因子>
+<项>
+<表达式>
+GRE >
+IDENFR lsp
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+LBRACE {
+IDENFR lsp
+ASSIGN =
+IDENFR lsp
+<因子>
+<项>
+PLUS +
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
+<语句>
+IDENFR j
+ASSIGN =
+IDENFR shenmegui
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IFTK if
+LPARENT (
+IDENFR j
+<因子>
+<项>
+<表达式>
+EQL ==
+IDENFR shenmegui
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+LBRACE {
+IDENFR k
+ASSIGN =
+IDENFR zdfvv
+<因子>
+MULT *
+IDENFR dickdon
+LBRACK [
+INTCON 2
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RBRACK ]
+<因子>
+MULT *
+IDENFR DickDong
+LBRACK [
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RBRACK ]
+LBRACK [
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RBRACK ]
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<条件语句>
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR k
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+SWITCHTK switch
+LPARENT (
+IDENFR dickdon
+LBRACK [
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RBRACK ]
+<因子>
+<项>
+<表达式>
+RPARENT )
+LBRACE {
+CASETK case
+CHARCON l
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON quite old!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+CHARCON s
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON quite se!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+CASETK case
+CHARCON p
+<常量>
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON quite pi!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<情况子语句>
+<情况表>
+DEFAULTTK default
+COLON :
+PRINTFTK printf
+LPARENT (
+STRCON I am not lsp!!!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<缺省>
+RBRACE }
+<情况语句>
+<语句>
+FORTK for
+LPARENT (
+IDENFR i
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+SEMICN ;
+IDENFR i
+<因子>
+<项>
+<表达式>
+LSS <
+INTCON 4
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+SEMICN ;
+IDENFR i
+ASSIGN =
+IDENFR i
+PLUS +
+INTCON 1
+<无符号整数>
+<步长>
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+IDENFR i
+<因子>
+<项>
+PLUS +
+INTCON 6
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON test3 end!
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

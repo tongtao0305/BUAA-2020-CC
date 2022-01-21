@@ -1,0 +1,12 @@
+18182651
+6
+6
+0
+empty_sentence
+3
+9
+14
+109
+not equal
+
+

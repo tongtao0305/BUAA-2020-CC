@@ -1,0 +1,106 @@
+const int a=+1,b=-2,c=3;
+const int d=108;
+const char c1='_';
+const char c2='1';
+const char Cc1='A';
+const char Cc2='+';
+const char Cc3='/';
+
+int x;
+int y[15];
+int z[13][16];
+int xx=1;
+int yy[5]={1,2,3,4,5};
+int zz[3][3]={{1,2,3},{2,3,4},{3,4,5}};
+
+int cmp(int x,int y)
+{
+    if(x<y) return (-2);
+    if(x<=y) return (-1);
+    if(x==y) return (0);
+    if(x>y) return (1);
+    if(x>=y) return (2);
+    if(x!=y) return (3);
+    else
+    {
+        return (-100);
+    }
+    return (-100);
+}
+
+void print1(int x)
+{
+    const int z=5;
+    int y=2;
+    x=x+y;
+    x=-1+x*y*3*4;
+    x=+1+x;
+    x=x-y;
+    x=y;
+    printf(x);
+}
+
+void print2()
+{
+    printf("hello world");
+    return;
+}
+
+void print3(char x){}
+
+char get()
+{
+    return ('a');
+}
+
+void main()
+{
+const int ksd = 123      int i,j;
+    int s=0;
+    int n;
+    int g2, fpx, tes      printf("18373114");
+    printf(cmp(a,b));
+    for(i=1;i<=10;i=i+1)
+    {
+        y[i]=i;
+    }
+    for(i=10;i>=1;i=i-1)
+    {
+        j=1;
+        while(j<=10)
+        {
+            z[i][j]=1;
+            j=j+1;
+        }
+    }
+    for(i=1;i<=10;i=i+1)
+        for(j=1;j<=10;j=j+1)
+            s=s+z[i][j];
+    printf("answer is ",s);
+
+    scanf(n);
+    switch(n)
+    {
+    case 1:
+        printf("1");
+    case 2:
+        printf("2");
+    case 3:
+        printf("3");
+    default:
+        printf("default");
+    }
+    scanf(n);
+    switch(n {
+    case 1:
+        printf("1");
+    default:
+        printf("default");
+    }
+    print1(10);
+    print2();
+    scanf(n);
+    printf(n);
+    printf("the");
+    printf("end");
+}

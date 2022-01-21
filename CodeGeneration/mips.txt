@@ -1,0 +1,92 @@
+.data
+s_0: .asciiz "Hello World"
+nextLine: .asciiz "\n"
+.text
+j main
+main:
+move $fp,$sp
+addi $sp,$sp,-72
+la $a0,s_0
+li $v0,4
+syscall
+la $a0,nextLine
+li $v0,4
+syscall
+li $t2,3
+sw $t2,-20($fp)
+li $t2,102
+sw $t2,-24($fp)
+lw $t0,-20($fp)
+lw $t1,-24($fp)
+mult $t0,$t1
+mflo $t2
+sw $t2,-28($fp)
+lw $t1,-28($fp)
+addi $t2,$t1,100
+sw $t2,-32($fp)
+lw $t0,-32($fp)
+sw $t0,-12($fp)
+lw $a0,-12($fp)
+li $v0,1
+syscall
+la $a0,nextLine
+li $v0,4
+syscall
+li $v0,5
+syscall
+sw $v0,-12($fp)
+lw $t0,-12($fp)
+li $t1,2
+mult $t0,$t1
+mflo $t2
+sw $t2,-36($fp)
+li $t0,1
+li $t1,2
+mult $t0,$t1
+mflo $t2
+sw $t2,-40($fp)
+lw $t0,-36($fp)
+lw $t1,-40($fp)
+add $t2,$t0,$t1
+sw $t2,-44($fp)
+li $t0,2
+li $t1,2
+div $t0,$t1
+mflo $t2
+sw $t2,-48($fp)
+lw $t0,-44($fp)
+lw $t1,-48($fp)
+add $t2,$t0,$t1
+sw $t2,-52($fp)
+lw $t0,-12($fp)
+li $t1,2
+div $t0,$t1
+mflo $t2
+sw $t2,-56($fp)
+lw $t0,-52($fp)
+lw $t1,-56($fp)
+add $t2,$t0,$t1
+sw $t2,-60($fp)
+lw $a0,-60($fp)
+li $v0,1
+syscall
+la $a0,nextLine
+li $v0,4
+syscall
+li $v0,12
+syscall
+sw $v0,-16($fp)
+lw $a0,-16($fp)
+li $v0,11
+syscall
+la $a0,nextLine
+li $v0,4
+syscall
+li $a0,0
+li $v0,11
+syscall
+la $a0,nextLine
+li $v0,4
+syscall
+li $v0,10
+syscall

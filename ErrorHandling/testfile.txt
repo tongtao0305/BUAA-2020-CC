@@ -1,0 +1,17 @@
+int a(){
+    int x=0;
+    return (x;
+}
+
+void main(){
+  int x =1;
+
+  if (1<2
+    printf(x)
+
+
+}
+
+
+
+

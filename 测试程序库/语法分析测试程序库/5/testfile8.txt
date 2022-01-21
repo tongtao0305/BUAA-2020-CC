@@ -1,0 +1,59 @@
+const int i = 0;
+int j = 1;
+
+char function1(char ch) {
+    {
+            return ('t');
+    }
+}
+
+int function2(int para1, int para2) {
+    if (para1 == para2) {
+        return (0);
+    } else {
+        return (1);
+    }
+}
+
+void main() {
+    const char ch1 = 'a';
+    const int a = +2, b = -39;
+
+    char ch2 = '4';
+    int s, t;
+    char str[3];
+    char map[2][2];
+
+    {
+        s = 4;
+        t = function2(s, s);
+        ch2 = function1(ch1);
+        str[0] = '_';
+        str[1] = 'A';
+        str[2] = '5';
+        map[0][0] = '+';
+        map[0][1] = '-';
+        map[1][0] = '*';
+        map[1][1] = '/';
+        if (1 != 2) {
+            printf("18231011");
+        }
+        printf(t);
+        printf(ch2);
+        for (t = 0; t < s - 1; t = t + 1) {
+            printf(str[t]);
+        }
+        t = 0;
+        while (t < 2) {
+            for (s = 1; s >= 0; s = s - 1) {
+                printf(map[t][s]);
+            }
+            t = t + 1;
+        }
+        printf("Akasaka", -(+b + a));
+        printf("18231011");
+        printf("18231011");
+        printf("18231011");
+        printf("18231011");
+    }
+}

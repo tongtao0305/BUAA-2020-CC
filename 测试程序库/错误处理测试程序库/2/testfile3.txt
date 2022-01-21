@@ -1,0 +1,32 @@
+char a,bb;
+char China = 'c';char chi = 'd';char chin = 'e';
+int b2b = +222;char c3c;
+int negtive = -111;int zero = 0;
+int result,ans,max[5][5];
+int b[3][3] = {{0,1,2},{5,6,2},{7,8,9}};
+int temp[5] = {1,2,3,4,5};int tempp[5] = {2,3,4,5,6};
+int i,j;
+int testfunc(){
+	return('f');
+}
+char testfunc2(){
+	return;
+}
+int testfunc3(){}
+void main() {
+	printf("18373489");
+	for (i=0;i<5;i=i+1) {
+		for (j=0;j<5;j=j+1){
+			max[i][j] = temp[i] * zero / negtive + tempp[j] - temp[i] + China;
+		}
+	}
+	printf(max[0][0]);
+	printf(max[0][1]);
+	printf(max[0][2]);
+	printf(max[0][3]);
+	printf(max[0][4]);
+	printf(max[1][0]);
+	printf(max[1][1]);
+	printf(max[1][2]);
+	printf((China - chi) * chin);
+}

@@ -1,0 +1,96 @@
+const int pi = 3;
+
+int a = 1;
+int b = 20;
+int signed_B = +20;
+int minus_B = -20;
+char c = 'c';
+char var1,char1;
+int var2[2];
+int var3[2][2];
+int var4, var5;
+int var6 = 1;
+int var7[2] = { 1,2 };
+int var8[2][2] = { {1,2},{3,4} };
+
+
+int addMult(int a, int b, int s) {
+	const int one = 1;
+	int c;
+	c = 2;
+	c = - a + b / one;
+	return (c * s);
+}
+
+char printChar(char a) {
+	printf(a);
+	return (a);
+}
+
+void hello() {
+	printf("hello world!");
+}
+
+int isPositive(int num) {
+	if (num > 0)
+		return (1);
+	else
+		return (0);
+}
+
+void readNwrite() {
+	char input;
+	scanf(input);
+	printf("input:",input);
+	return;
+}
+
+void main() {
+	int signal;
+	int array[10];
+	int ar[10][10];
+	printf("18231091");
+	addMult(a, b, signed_B);
+	printChar(c);
+	hello();
+	readNwrite();
+	signal = 1;
+	signal = --1;
+	signal = ++1;
+	printf(signal);
+	if (signal == 0)
+		signal = signal + 1;
+	if (signal < 0) {
+		signal = signal + 2;
+	}
+	if(signal <= 0)
+		signal = 0;
+	else{
+	
+	}
+	array[5] = 10;
+	ar[1][1] = 1;
+	switch (signal) {
+		case 1:
+			printf(signal);
+		case 2:
+			printf("2");
+		default:
+			printf("KO");
+	}
+	switch (signal) {
+		case 1:
+			printf("1");
+		default:
+			printf("KO");
+	}
+	while (signal >= 0) {
+		signal = signal - 1;
+	}
+	for (signal = 0; signal != 10; signal = signal + 1)
+		signal = signal + 1;
+
+	for (signal = 10; signal > 0; signal = signal - 1)
+		;
+	signal = signal + array[5] + ar[10][10] + (5 + 4) + 5 + 'c' + isPositive(1);
+}

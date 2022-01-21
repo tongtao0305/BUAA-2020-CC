@@ -1,0 +1,16 @@
+const int num2 = 2;
+const int num4 = 4;
+const int num8 = 8;
+const int num16 = 16;
+const int num32 = 32;
+const int num64 = 64;
+int main(){
+    int i =1;
+    i = i*num2;
+    i = i*num4;
+    i = i*num8;
+    i = num16*i;
+    i = num32*i;
+    i = num64*i;
+    printf(i);
+}

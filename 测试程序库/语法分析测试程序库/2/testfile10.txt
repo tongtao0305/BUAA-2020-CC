@@ -1,0 +1,48 @@
+int s0[2][2]={{1,1},{1,1}};
+int s1[2]={1,1};
+char s2[2]={'a','a'};
+void main(){
+int i=1;
+int j=2;
+int k=3;
+int m=0;
+int n=0;
+int r1,r2;
+char ss;
+s2[0]='A';
+scanf(ss);
+printf("18231215");
+m=i;
+printf(m);
+m=+i+i;
+printf(m);
+m=-i+j;
+printf(m);
+m=i*i;
+printf(m);
+m=s1[0];
+n=s0[0][0];
+m=i+(-j);
+m=0;
+n=0;
+if(i<j)
+;
+else
+i=i+m;
+switch(i){
+case 1:i=i+1;
+default:i=k;
+}
+printf(i);
+switch(j){
+case 0:j=0;
+case 1:j=1;
+case 2:j=3;
+default:j=-1;
+}
+printf(j);
+printf("18231215");
+printf("18231215");
+printf("18231215");
+return;
+}

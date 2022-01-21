@@ -1,0 +1,55 @@
+int number = 18374162;
+int no_init;
+char no_init_ch;
+int nums3[2]={1,2};
+int nums4[2][2]={{1,2},{3,4}};
+int readin;
+int func1(){
+	const int shcool_number1 = 18374162;
+	int num1 = 1;
+	return (num1);
+}
+void func2(int num){
+	return;
+}
+void func3(int num1,int num2){
+}
+void func4(int num1,int num2){
+	while(num1>0);
+}
+void main(){
+	printf("18374162");
+	
+	number = func1();
+	number = 1;
+	printf(number);
+	
+	no_init_ch = 'a';
+	no_init = number;
+	printf(no_init);
+	
+	func2(number);
+	func3(number,no_init);
+	no_init = (number+number);
+	printf(no_init);
+	
+	no_init = nums3[1];
+	no_init = nums4[1][1];
+	printf(no_init);
+	
+	no_init = number*number;
+	printf(no_init);
+	
+	no_init = number/number;
+	printf(no_init);
+	
+	nums3[1] = +number+number;
+	printf(no_init);
+	
+	nums4[1][1] = -number-number;
+	printf(no_init);
+	
+	scanf(readin);
+	printf("readin is ",readin);
+	
+}

@@ -1,0 +1,243 @@
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR temp
+ASSIGN =
+INTCON 1000
+<无符号整数>
+<整数>
+<常量>
+<变量定义及初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR i
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR ans
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+PRINTFTK printf
+LPARENT (
+STRCON 18373085
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IFTK if
+LPARENT (
+IDENFR temp
+<因子>
+<项>
+<表达式>
+LSS <
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON temp<1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+ELSETK else
+PRINTFTK printf
+LPARENT (
+STRCON temp>=1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+IFTK if
+LPARENT (
+IDENFR temp
+<因子>
+<项>
+<表达式>
+LEQ <=
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON temp<=1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+ELSETK else
+PRINTFTK printf
+LPARENT (
+STRCON temp>1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+IFTK if
+LPARENT (
+IDENFR temp
+<因子>
+<项>
+<表达式>
+GRE >
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON temp>1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+ELSETK else
+PRINTFTK printf
+LPARENT (
+STRCON temp<=1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+IFTK if
+LPARENT (
+IDENFR temp
+<因子>
+<项>
+<表达式>
+GEQ >=
+INTCON 1000
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+RPARENT )
+PRINTFTK printf
+LPARENT (
+STRCON temp>=1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+ELSETK else
+PRINTFTK printf
+LPARENT (
+STRCON temp<1000
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<条件语句>
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR i
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+FORTK for
+LPARENT (
+IDENFR temp
+ASSIGN =
+IDENFR i
+<因子>
+<项>
+<表达式>
+SEMICN ;
+IDENFR temp
+<因子>
+<项>
+<表达式>
+GRE >
+INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
+SEMICN ;
+IDENFR temp
+ASSIGN =
+IDENFR temp
+MINU -
+INTCON 1
+<无符号整数>
+<步长>
+RPARENT )
+LBRACE {
+IDENFR ans
+ASSIGN =
+MINU -
+IDENFR temp
+<因子>
+DIV /
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR ans
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+RBRACE }
+<语句>
+<循环语句>
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

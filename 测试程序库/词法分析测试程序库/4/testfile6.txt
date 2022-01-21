@@ -1,0 +1,68 @@
+const int c = 2,m = 3;
+
+char ga = '_';char gb = '*';
+int a;int b;
+
+
+void zzz() {
+
+}
+
+void aaa() {
+	return;
+} 
+int ttt(int m) {
+	m = m + 1;
+	return (m);
+}
+
+void main() {
+
+	int q=1;char qq;
+    int qqq[5],qqqq[10][10];
+	int a,b;
+	int c;
+	scanf(c);
+	printf("18375420");
+	a = 3;
+	printf("a ",a);
+	a = +3;
+	a = 5 + 5;
+	printf("a ",a);
+	b = -3 - 2 * 3;
+	printf("b ",b);
+	c ='3' + 3;
+	printf("a ",a);
+	
+	if (a > b) {
+		a = ttt(a);
+	} else {
+		b = ttt(b);
+	}
+	printf(a);
+	
+	if (a < b) {
+		aaa();
+	}
+	printf(a);
+	
+	if (a >= b) {
+		zzz();
+	}
+	printf(a);
+	
+	if (a <= b) {
+		a = a + 1;
+	}
+	printf(a);
+	
+	if (a != b) {
+		a = a + 1;
+	}
+	printf(a);
+	
+	if (a == b) {
+		a = a + 1;
+	}
+	
+}

@@ -1,0 +1,36 @@
+void test_scanf(){
+	int hyx;
+	scanf(hyx);
+}
+
+void test_expreission(){
+	int a,b,c;
+	int x,y,z;
+	int a1[10],b1[10];
+	int a2[3][3];
+	a=1;
+	b=1;
+	c=1;
+
+	x=a;
+	y=+a+b;
+	z=-a-b+(a+b);
+	a1[0]=a;
+	a2[0][0]=a;
+	b1[0]=+a+b*c/a-a1[0]*'1'+a2[0][0];
+}
+
+void main(){
+	int nop=0;
+	printf("18182603");
+	printf("a");
+	printf("aa");
+	printf("aaa");
+	printf(nop);
+	printf("meinv",nop);
+	printf("h");
+	printf("hh");
+	printf("hhh");
+	printf("hhhh");
+	test_scanf();
+}

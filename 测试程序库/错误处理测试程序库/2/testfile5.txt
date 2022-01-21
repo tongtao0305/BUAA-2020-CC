@@ -1,0 +1,37 @@
+int plus(int a ,int b){
+	int c ;
+	c = a + b;
+	return(c);
+}
+
+void main(){
+const int tessx = 102;
+	char ch1 = 's';
+	char ch2;
+
+	int x[2] = {1,2};
+	int y[2][2]={
+		{1,2},
+		{3,4}
+	};
+	int i,j ;
+	int a[5],b[5];
+	int c[2][2];
+	tessx = 109;;;;;
+	
+	printf("18375235");
+	;
+	scanf(tessx);;;;
+	
+	for(i = 0; i < 5;i=i+1){
+		a[i] = i;
+		printf(a[i]);
+	}
+	
+	for(i=0;i<2;i=i+1){
+		for(j = 0;j<2;j=j+1{
+			c[i][j] = i + j;
+			printf(c[i][j]);
+		}
+	}
+}

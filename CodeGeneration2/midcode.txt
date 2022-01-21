@@ -1,0 +1,413 @@
+a[0] = 0
+a[1] = 1
+a[2] = 2
+a[3] = 3
+a[4] = 4
+a[5] = 5
+a[6] = 6
+a[7] = 7
+a[8] = 8
+a[9] = 9
+a[10] = 0
+a[11] = 1
+a[12] = 2
+a[13] = 3
+a[14] = 4
+a[15] = 5
+a[16] = 6
+a[17] = 7
+a[18] = 8
+a[19] = 9
+a[20] = 0
+a[21] = 1
+a[22] = 2
+a[23] = 3
+a[24] = 4
+a[25] = 5
+a[26] = 6
+a[27] = 7
+a[28] = 8
+a[29] = 9
+a[30] = 0
+a[31] = 1
+a[32] = 2
+a[33] = 3
+a[34] = 4
+a[35] = 5
+a[36] = 6
+a[37] = 7
+a[38] = 8
+a[39] = 9
+a[40] = 0
+a[41] = 1
+a[42] = 2
+a[43] = 3
+a[44] = 4
+a[45] = 5
+a[46] = 6
+a[47] = 7
+a[48] = 8
+a[49] = 9
+a[50] = 0
+a[51] = 1
+a[52] = 2
+a[53] = 3
+a[54] = 4
+a[55] = 5
+a[56] = 6
+a[57] = 7
+a[58] = 8
+a[59] = 9
+a[60] = 0
+a[61] = 1
+a[62] = 2
+a[63] = 3
+a[64] = 4
+a[65] = 5
+a[66] = 6
+a[67] = 7
+a[68] = 8
+a[69] = 9
+a[70] = 0
+a[71] = 1
+a[72] = 2
+a[73] = 3
+a[74] = 4
+a[75] = 5
+a[76] = 6
+a[77] = 7
+a[78] = 8
+a[79] = 9
+a[80] = 0
+a[81] = 1
+a[82] = 2
+a[83] = 3
+a[84] = 4
+a[85] = 5
+a[86] = 6
+a[87] = 7
+a[88] = 8
+a[89] = 9
+a[90] = 0
+a[91] = 1
+a[92] = 2
+a[93] = 3
+a[94] = 4
+a[95] = 5
+a[96] = 6
+a[97] = 7
+a[98] = 8
+a[99] = 9
+kernelid[0] = 1
+kernelid[1] = 2
+kernelid[2] = 0
+kernelid[3] = 1
+kernelid[4] = 0
+kernelid[5] = 3
+kernelid[6] = 1
+kernelid[7] = 2
+kernelid[8] = 1
+kernelid[9] = 0
+kernelid[10] = 1
+kernelid[11] = 2
+kernelid[12] = 0
+kernelid[13] = 1
+kernelid[14] = 0
+j main
+FUNC int myscanf()
+SCAN n
+RET n
+FUNC void myprintf()
+PARA int n
+PRINT n 1
+PRINT EndLine 4
+RET 
+FUNC int checkrange()
+PARA int num
+Label1: 
+T1 = (num > max)
+BZ Label2(T1=0)
+T2 = num - max
+num = T2
+GOTO Label1
+Label2: 
+Label3: 
+T3 = (num < 0)
+BZ Label4(T3=0)
+T4 = num + max
+num = T4
+GOTO Label3
+Label4: 
+RET num
+FUNC int reduce()
+PARA int kernelid
+PARA int x
+PARA int y
+T5 = (kernelid == 0)
+BZ Label5(T5=0)
+T6 = x + y
+PUSH T6
+CALL checkrange
+RETVALUE T7 = RET
+RET T7
+Label5: 
+T8 = (kernelid == 1)
+BZ Label6(T8=0)
+ret = 0
+i = 1
+Label7: 
+T9 = (i < max)
+BZ Label8(T9=0)
+T11 = x / i
+T12 = x / i
+T13 = T12 / 2
+T14 = T13 * 2
+T15 = T11 - T14
+T16 = y / i
+T17 = y / i
+T18 = T17 / 2
+T19 = T18 * 2
+T20 = T16 - T19
+T10 = (T15 == T20)
+BZ Label9(T10=0)
+T21 = ret * 2
+ret = T21
+GOTO Label10
+Label9: 
+T22 = ret * 2
+T23 = T22 + 1
+ret = T23
+Label10: 
+T24 = i * 2
+i = T24
+GOTO Label7
+Label8: 
+RET ret
+Label6: 
+T25 = (kernelid == 2)
+BZ Label11(T25=0)
+T26 = (x > y)
+BZ Label12(T26=0)
+RET x
+GOTO Label13
+Label12: 
+RET y
+Label13: 
+Label11: 
+T27 = (kernelid == 3)
+BZ Label14(T27=0)
+ret = 0
+i = 1
+Label15: 
+T28 = (i < max)
+BZ Label16(T28=0)
+T30 = x / i
+T31 = x / i
+T32 = T31 / 2
+T33 = T32 * 2
+T34 = T30 - T33
+T29 = (T34 == 1)
+BZ Label17(T29=0)
+T35 = ret * 2
+T36 = T35 + 1
+ret = T36
+GOTO Label18
+Label17: 
+T38 = y / i
+T39 = y / i
+T40 = T39 / 2
+T41 = T40 * 2
+T42 = T38 - T41
+T37 = (T42 == 1)
+BZ Label19(T37=0)
+T43 = ret * 2
+T44 = T43 + 1
+ret = T44
+Label19: 
+T45 = ret * 2
+ret = T45
+Label18: 
+T46 = i * 2
+i = T46
+GOTO Label15
+Label16: 
+RET ret
+Label14: 
+T47 = (kernelid == 4)
+BZ Label20(T47=0)
+ret = 0
+i = 1
+Label21: 
+T48 = (i < max)
+BZ Label22(T48=0)
+T50 = x / i
+T51 = x / i
+T52 = T51 / 2
+T53 = T52 * 2
+T54 = T50 - T53
+T49 = (T54 == 1)
+BZ Label23(T49=0)
+T56 = y / i
+T57 = y / i
+T58 = T57 / 2
+T59 = T58 * 2
+T60 = T56 - T59
+T55 = (T60 == 1)
+BZ Label24(T55=0)
+T61 = ret * 2
+T62 = T61 + 1
+ret = T62
+GOTO Label25
+Label24: 
+T63 = ret * 2
+ret = T63
+Label25: 
+GOTO Label26
+Label23: 
+T64 = ret * 2
+ret = T64
+Label26: 
+T65 = i * 2
+i = T65
+GOTO Label21
+Label22: 
+RET ret
+Label20: 
+RET 0
+FUNC int getvalue()
+PARA int n
+PARA int m
+PARA int x
+PARA int y
+T66 = (x < 0)
+BZ Label27(T66=0)
+RET 0
+Label27: 
+T67 = (y < 0)
+BZ Label28(T67=0)
+RET 0
+Label28: 
+T68 = (x >= n)
+BZ Label29(T68=0)
+RET 0
+Label29: 
+T69 = (y >= m)
+BZ Label30(T69=0)
+RET 0
+Label30: 
+T70 = x * m
+T71 = T70 + y
+T72 = a[T71]
+RET T72
+FUNC int convn()
+PARA int kernelid
+PARA int n
+PARA int m
+PARA int c
+i = 0
+j = 0
+flag1 = 1
+flag2 = 1
+flag3 = 1
+flag4 = 1
+Label31: 
+T73 = (flag1 == 1)
+BZ Label32(T73=0)
+j = 0
+Label33: 
+T74 = (flag2 == 1)
+BZ Label34(T74=0)
+curr = 0
+T75 = c / 2
+T76 = i - T75
+x = T76
+Label35: 
+T77 = (flag3 == 1)
+BZ Label36(T77=0)
+T78 = c / 2
+T79 = j - T78
+y = T79
+Label37: 
+T80 = (flag4 == 1)
+BZ Label38(T80=0)
+PUSH kernelid
+PUSH curr
+PUSH n
+PUSH m
+PUSH x
+PUSH y
+CALL getvalue
+RETVALUE T81 = RET
+PUSH T81
+CALL reduce
+RETVALUE T82 = RET
+curr = T82
+T83 = y + 1
+y = T83
+T85 = c / 2
+T86 = j + T85
+T84 = (y >= T86)
+BZ Label39(T84=0)
+flag4 = 0
+Label39: 
+GOTO Label37
+Label38: 
+flag4 = 1
+T87 = x + 1
+x = T87
+T89 = c / 2
+T90 = i + T89
+T88 = (x >= T90)
+BZ Label40(T88=0)
+flag3 = 0
+Label40: 
+GOTO Label35
+Label36: 
+flag3 = 1
+T91 = i * m
+T92 = T91 + j
+b[T92] = curr
+T93 = j + 1
+j = T93
+T94 = (j >= m)
+BZ Label41(T94=0)
+flag2 = 0
+Label41: 
+GOTO Label33
+Label34: 
+flag2 = 1
+T95 = i + 1
+i = T95
+T96 = (i >= n)
+BZ Label42(T96=0)
+flag1 = 0
+Label42: 
+GOTO Label31
+Label32: 
+RET 0
+FUNC void main()
+i = 0
+c = 5
+n = 10
+m = 10
+arrlen = 100
+task = 15
+i = 0
+Label43: 
+T97 = (i < task)
+BZ Label44(T97=0)
+PRINT begin 3
+PRINT EndLine 4
+T98 = kernelid[i]
+PUSH T98
+PUSH n
+PUSH m
+PUSH c
+CALL convn
+PRINT end 3
+PRINT EndLine 4
+T99 = i + 1
+i = T99
+GOTO Label43
+Label44: 
+EXIT

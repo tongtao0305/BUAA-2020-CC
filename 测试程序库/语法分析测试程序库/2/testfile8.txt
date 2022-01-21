@@ -1,0 +1,34 @@
+const int PI = 3;
+int _global = 233;
+
+void main() {
+	printf(18231051);
+	printf("Test case 2: logistic, conditional, switch & loop expressions.");
+	if (_global == 114514) {
+		printf("Branch 1, should not enter this branch.");
+	} else {
+		if (_global >= 222) printf("Branch 2, should enter this branch.");
+		if (_global <= 123) printf("Branch 3, should not enter this branch.");
+		else if (_global != -233) printf("Branch 4, should enter this branch.");
+	}
+	while (_global < 255) {
+		printf(_global);
+		_global = _global + 3;
+	}
+	for (_global = 2333; _global > 233; _global = _global - 233) printf(_global);
+	{
+		
+	}
+	{;}{_global = 1;}
+	switch(PI) {
+		case 1: _global = _global + 10;
+		default: _global = _global + 100;
+	}
+	switch(PI) {
+		case 2: _global = _global + 1000;
+		case 3: _global = _global + 10000;
+		case 4: printf("Fallthrough, should not print this");
+		default:;
+	}
+	printf(_global);
+}

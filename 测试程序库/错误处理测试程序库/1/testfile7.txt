@@ -1,0 +1,9 @@
+void fun(int x){
+
+}
+
+void main() {
+  int arr3[2[3] = {{1,2,3},{0,0,0}};
+  arr3[2[0]=1;
+  fun(arr3[2][0);
+}

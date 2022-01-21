@@ -1,0 +1,71 @@
+int boo() {
+	return (1);
+}
+
+char foo(int a, char b) {
+	int c;
+	return (b);
+}
+void err() {
+	printf("something went wrong in if statement");
+}
+void main() {
+	int int_initialized_1 = 12;
+	int int_initialized_2[3] = {1,2,3};
+	int int_initialized_3[2][3] = {{1,2,3}, {4,5,6}};
+	
+	char char_initialized_1 = 'r';
+	char char_initialized_2[3] = {'a','b','c'};
+	char char_initialized_3[2][3] = {{'d','e','f'}, {'x','y','z'}};
+
+	int i = 0;
+	int j = 1;
+	char ch;
+
+	printf("78066014");
+
+	if (i >= 0) {
+		printf("int_initialized_1 = ", int_initialized_1);
+	}
+	else {
+		err();
+	}
+
+	if (j <= 1) {
+		printf("int_initialized_2[0] = ",int_initialized_2[0]);
+	}
+	else {
+		err();
+	}
+
+	if (i > -1) {
+		printf("int_initialized_2[2] = ",int_initialized_2[2]);
+	} 
+	else {
+		err();
+	}
+
+	if (j < 2) {
+		printf("char_initialized_3[0][0] = ",char_initialized_3[0][0]);
+	}
+	else {
+		err();
+	}
+	if (i != j) {
+		printf("char_initialized_3[1][2] = ",char_initialized_3[1][2]);
+	}
+	else {
+		err();
+	}
+
+	scanf(ch);
+	printf("newly scanned char ch : ",ch);
+
+	scanf(i);
+	printf("newly scanned int i : ",i);
+
+	printf("boo ",boo());
+	printf("foo ",foo(90,'a'));
+
+	return;
+}

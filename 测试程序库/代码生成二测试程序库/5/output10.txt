@@ -1,0 +1,10 @@
+18182601
+check_1 M_c=b
+check_1=b
+const A_c=*
+BB[0][0]=-223
+AA_c+AA[1]+BB[1][1]=543
+check_assign=543
+guanxi=16
+tiaojian=1
+kongyuju=0

@@ -1,0 +1,6 @@
+
+void main() {
+  char  arr1[3][1 ;
+  char arr2[3 ;
+  int arr3[3 = {1,2,3};
+}

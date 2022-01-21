@@ -1,0 +1,30 @@
+const char anm='a',bal='b';
+int arr[3];
+char Woo(){
+    return('a');
+}
+void main(){
+int x,y;
+char c;
+int testarr[300];
+for(x = 0; x < 300; x = x+1){
+    testarr[x] = 10;
+};;
+x = (+11 ;
+y = - 12;
+printf( "18373803" );
+printf(x);
+printf(y);
+printf("-(x+y)=",-(x+y));
+if(1>0)
+    printf("1>0");
+if(-1<0)
+    printf("-1<0");
+if(0==0){};
+printf( "18373803" );
+printf(testarr[Woo()]);;;
+printf( "18373803" );
+printf( "18373803" );
+printf( "18373803" );
+printf(testarr['a']);;;
+}

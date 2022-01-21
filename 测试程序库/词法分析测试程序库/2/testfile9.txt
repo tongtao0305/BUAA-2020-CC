@@ -1,0 +1,55 @@
+void main() {
+    int aggregate[10] = { 2,3,4,5,0,0,0,0,0,0};
+    int number1,number2,storage,n,m,i,mark;
+    int storage2[10] = { 14,23,45,67,89,2,3,4,0,0 };
+    char Character_good;
+    number1 = 4;
+    number2 = 5;
+
+    for (n = 0; n < number1-1; n = n+ 1) {
+        if (aggregate[n] < aggregate[n + 1]) {
+            storage = aggregate[n];
+            aggregate[n] = aggregate[n + 1];
+            aggregate[n + 1] = storage;
+            n = -1;
+        }
+    }
+    ;
+
+
+    for (n = 0; n < number2; n = n + 1) {
+        for (m = 0; m < number1; m = m + 1) {
+            if (storage2[n] > aggregate[m]) {
+                for (i = number1 ; i > m; i = i-1) {
+                    aggregate[i] = aggregate[i - 1];
+                }
+                aggregate[m] = storage2[n];
+                number1 = number1 + 1;
+            }
+            if (storage2[n] == aggregate[m]) {
+                for (i = m; i < number1; i = i + 1) {
+                    aggregate[i] = aggregate[i + 1];
+                }
+                number1 = number1 - 1;
+                mark = 1;
+            }
+
+
+        }
+        if (m == number1) {
+            if (mark != 1) {
+                aggregate[m] = storage2[n];
+                number1 = number1 + 1;
+            }
+        }
+        mark = 0;
+    }
+    printf("18231208");
+    for (n = 0; n < number1 - 1; n=n+1) {
+        printf(  aggregate[n]);
+        printf(  aggregate[n] + 2);
+        printf(  aggregate[n] * n);
+    }
+
+    return;
+}

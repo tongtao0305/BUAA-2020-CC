@@ -1,0 +1,204 @@
+CONSTTK const
+INTTK int
+IDENFR globalConstInt
+ASSIGN =
+INTCON 100
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR globalConstChar
+ASSIGN =
+CHARCON a
+<常量定义>
+SEMICN ;
+<常量说明>
+IDENFR globalVarInt
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+IDENFR globalVarChar
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+CONSTTK const
+INTTK int
+IDENFR a
+ASSIGN =
+INTCON 1
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+INTTK int
+IDENFR b
+ASSIGN =
+INTCON 2
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR cc
+ASSIGN =
+CHARCON t
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR c
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR d
+<变量定义无初始化>
+<变量定义>
+SEMICN ;
+<变量说明>
+PRINTFTK printf
+LPARENT (
+STRCON Hello World
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR c
+ASSIGN =
+IDENFR globalConstInt
+<因子>
+<项>
+PLUS +
+LPARENT (
+IDENFR b
+<因子>
+<项>
+PLUS +
+IDENFR a
+<因子>
+<项>
+<表达式>
+RPARENT )
+<因子>
+MULT *
+LPARENT (
+IDENFR b
+<因子>
+<项>
+PLUS +
+INTCON 100
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR c
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR c
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR c
+<因子>
+MULT *
+IDENFR b
+<因子>
+<项>
+PLUS +
+IDENFR a
+<因子>
+MULT *
+IDENFR b
+<因子>
+<项>
+PLUS +
+IDENFR b
+<因子>
+DIV /
+INTCON 2
+<无符号整数>
+<整数>
+<因子>
+<项>
+PLUS +
+IDENFR c
+<因子>
+DIV /
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR d
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+SCANFTK scanf
+LPARENT (
+IDENFR test
+RPARENT )
+<读语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR test
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

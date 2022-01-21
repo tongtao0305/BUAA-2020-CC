@@ -1,0 +1,26 @@
+const int Value = 10;
+const char c = 'c';
+
+void main()
+{
+	int n, i, j, k;
+	int a[10][10], b[10][10];
+
+	printf("18373420");
+	printf("1");
+	printf("2");
+	printf("3");
+	printf("4");
+	printf("5");
+	printf("6");
+	printf("7");
+	printf("8");
+	scanf(n);
+	for (i = 1; i <= n; i = i + 1)
+	{
+		scanf(k);
+		a[0][0] = k;
+	}
+	b[0][0] = (a[0][0] * a[0][0]);
+	printf(b[0][0]);
+}

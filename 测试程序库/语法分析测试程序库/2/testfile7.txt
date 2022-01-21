@@ -1,0 +1,44 @@
+void function_bubble(int n){
+
+  int a[8] = {78, 23, 10, 233, 4897, 1, 24, 98};
+  int i,j,hold;
+
+
+	for (i=0;i<n-1;i=i+1)
+	{
+		for(j=0;j<n-1-i;j=j+1)
+		{
+		 if(a[j]>a[j+1])
+            {
+			hold=a[j];
+			a[j]=a[j+1];
+			a[j+1]=hold;
+
+            }
+        }
+    }
+
+
+	printf("positive sequence:");
+	i = 0;
+    while (i<n){
+        printf(a[i]);
+        i=i+1;
+    }
+
+return ;
+}
+
+
+
+
+void main()
+{
+    int bubble_n;
+
+    scanf(bubble_n);
+    printf("18182649");
+    function_bubble(bubble_n);
+
+
+}

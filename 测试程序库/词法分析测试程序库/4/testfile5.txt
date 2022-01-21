@@ -1,0 +1,52 @@
+
+const int a1=0;
+const int b1=-1;
+
+
+void func_none(char c)
+{
+	printf("1837507",c);
+}
+
+int func_cal()
+{
+	const int AA = +2;
+	const int BB = 3;
+	int a, b;
+	a = +AA + BB;
+	b = -AA * BB + BB;
+	return (a + b);
+}
+
+void main()
+{
+	int n = 0;
+	int m = 0;
+	int k;
+	char a, b[2], c[2][2];
+	func_none('4');			
+	while (n < 5)
+	{
+		n = n + 1;
+		m = m - b1;
+	}
+	if (m == 5) 
+	{
+		printf("m = ", m);	
+	}
+
+	printf(('c'));			
+
+	printf(a1);				
+	printf(b1);				
+
+	a = 'G';
+	b[1] = 'K';
+	c[0][1] = 'L';
+	c[1][1] = 'M';
+	printf(a);				
+	printf(b[1]);			
+	printf(c[0][1]);		
+	printf(c[0][1] + c[1][1]);	
+	printf(func_cal());	
+}

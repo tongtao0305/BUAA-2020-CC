@@ -1,0 +1,25 @@
+const int globalConstInt=100;
+const char globalConstChar='a';
+int globalVarInt;
+char globalVarChar;
+
+void main(){
+    const int a = 1;
+    const int b = 2;
+    const char cc ='t;
+    int c;
+    char d;
+    printf("Hello World");
+
+    c = globalConstInt + (b+a)*(b+100);
+    printf(c);
+
+    scanf(c);
+    printf(c*b+a*b + b/2 + c/b);
+
+    scanf(d);
+    printf(d);
+
+    scanf(test);
+    printf(test);
+}

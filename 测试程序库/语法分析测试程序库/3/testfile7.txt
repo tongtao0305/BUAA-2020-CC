@@ -1,0 +1,54 @@
+const char __timee = '*';
+const char __divide = '/';
+
+int dp[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+int vztd[3] = {1, 1, 1};
+int ans = 1;int res = -1;
+void fuck(int t)
+{
+    vztd[t] = 0;
+    return;
+}
+
+void no_ret_func()
+{
+    dp[1][1] = 99;
+}
+
+void main()
+{
+    printf("18373665");
+    printf(vztd[0]);
+    fuck(0);
+    printf(vztd[0]);
+    fuck(1);
+    printf(vztd[1]);
+    no_ret_func();
+    printf(dp[1][1]);
+    switch (dp[1][1])
+    {
+        case 99:
+            printf("Success");
+        default: {}
+    }
+    switch (vztd[0])
+    {
+        case 0:
+            printf("Success2222");
+        case 1 :
+            {}
+        default:
+            {}
+    }
+    while(dp[0][0] < 2)
+    {
+        dp[0][0] = 2;
+        printf(dp[0][0]);
+    }
+
+    ans = +2 + 3 + 4 + ans;  
+    printf(ans);
+    
+    res = -1 * 2 * res;
+    printf(res);
+}

@@ -1,0 +1,55 @@
+const int zz = 999;
+const char zz_zz = '9',p = 'q';
+
+char yy = 'z';
+char max = '*';
+char min = '+';
+char ma = '/';
+char mi = '-';
+int a = 1;
+int a1[1] = {1};
+int a2[2][2] = {{1, 2}, {1, 2}};
+int b = -1;
+int c = +123;
+int d , e;
+
+int add1(int i)
+{
+	return (i+1);
+}
+
+char re(char s ,char ss)
+{
+	return (s);
+}
+void none()
+{
+}
+
+void nonenone()
+{
+	return;
+}
+void main()
+{
+	const int f = 9;
+	int g = 99;
+	char sss ='A';
+	char temp;
+	printf("18182659");
+
+	printf(a+b);
+	temp = re(zz_zz,sss);
+	printf(temp);
+	printf(add1(9));
+	printf("abcdefg");
+	printf("*/+-",'z');
+	printf(zz_zz);
+	none();
+	nonenone();
+	scanf(sss);
+	printf(sss);
+	scanf(a);
+	printf(a);
+	printf('2');
+}

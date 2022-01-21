@@ -1,0 +1,10 @@
+18376334
+add test: 1 + 1 = ?
+2
+reverse test: 0 - -1 = ?
+1
+put A:A
+put _:_
+put num1*num2:-1
+end?
+end!
